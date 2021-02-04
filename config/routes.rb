@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+    resources :genres 
   
     get "/artists", to: "artists#index", as: "artists"
     get "/artists/new", to: "artists#new", as: "new_artist"

@@ -40,4 +40,4 @@ class InstrumentsController < ApplicationController
     end
 end
 
-end
+

@@ -5,9 +5,9 @@
 <p> Age: <%= @artist.age %> </p>
 
 <ul>
-    <% @artist.instruments do |instrument| %>
+    <% @artist.genres.each do |genre| %>
     <li>
-        <%= instrument.name %>
+        <%= genre.instrument.name %>
     </li>
     <% end %>
 </ul>
